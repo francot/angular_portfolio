@@ -1,0 +1,8 @@
+{
+  "name": "portfolio",
+
+  "dependencies": {
+    "angular": "1.3.x",
+    "angular-mocks": "1.3.x"
+  }
+}

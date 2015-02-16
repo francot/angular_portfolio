@@ -1,0 +1,26 @@
+<div class="row" >
+
+  <div class="container-fluid">
+
+
+
+
+
+
+<div class="row">
+  <div class="col-md-4" ng-repeat="phone in phones | filter:query | filter:filters"  >
+
+  <!--Body content-->
+  <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}" class="img-responsive"></a>
+  <a href="#/phones/{{phone.id}}">{{phone.name}}</a>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+
+</div>
